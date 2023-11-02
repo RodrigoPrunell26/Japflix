@@ -1,0 +1,50 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: rgb(10, 10, 9);
+}
+
+.card-content {
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+}
+
+.checked {
+    color: orange;
+}
+
+.offcanvas-top {
+    height: fit-content;
+}
+
+#detalle-pelicula {
+    display: none;
+    background-color: #0e0c0c;
+    padding: 20px;
+}
+
+#detalle-titulo {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#detalle-tagline {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#detalle-vote {
+    font-weight: bold;
+}
+
+
